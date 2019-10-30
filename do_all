@@ -1,0 +1,30 @@
+#!/bin/bash
+
+n=4
+
+if [[ $# -gt 0 ]]
+then
+    n=$1
+fi
+
+echo "Running on length $n"
+
+v=0
+
+if [[ $# -gt 1 ]]
+then
+    v=$2
+    echo "Running on variation $v"
+fi
+
+for i in {0..7};
+do
+    LIST_PATH="./lists/list"$n"_"$i
+    RUN_PATH="./runs/run"$n"/"
+    RUN_FILE="run_on_list"$n"_"$i".txt"
+    [ -d $RUN_PATH ] || mkdir -p $RUN_PATH
+    echo "Running variation $i"
+    ./cmake-build-debug/CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE
+done
+
+echo "Done..."

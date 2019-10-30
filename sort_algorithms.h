@@ -11,31 +11,22 @@ using namespace std;
 
 typedef std::pair<int, int> t_sort;
 
-const int pad_length = 2;
+int pad_length = 3;
 
 #define t_sort_print(i) "(" << pad(i.first, pad_length) << i.first << ", " << pad(i.second, pad_length) << i.second << ")"
 
 // Helper methods
 
-string pad(int i, int l) {
-    string s = "";
+inline string pad(int number, int length) {
+    int i = number, j = length + ((number < 0) ? -2 : -1);
+    while (i /= 10) --j;
+    return (j > 0) ? std::string(j, ' ') : "";
+}
 
-    int il = 1;
-    if (i < 0) {
-        ++il;
-        i = -i;
-    }
-
-    while (i >= 10) {
-        ++il;
-        i /= 10;
-    }
-
-    l -= il;
-
-    for (int j = 0; j < l; ++j) s += " ";
-
-    return s;
+inline int pad_count(int number) {
+    int i = number, j = ((number < 0) ? 2 : 1);
+    while (i /= 10) ++j;
+    return j;
 }
 
 void printArray(t_sort A[], int n, string sep = ", ", int per = 0, string div = "\n") {
@@ -43,7 +34,7 @@ void printArray(t_sort A[], int n, string sep = ", ", int per = 0, string div = 
         cout << t_sort_print(A[i]);
         if (i < n - 1) {
             cout << sep;
-            if (per > 0 && (i % per) == (per - 1)) cout << div;
+            if (per && (i % per) + 1 == per) cout << div;
         }
     }
     cout << endl;
@@ -76,7 +67,7 @@ void insertionSort(t_sort A[], int n) {
         j = i - 1;
         while (j >= 0 && A[j] > key) {
             A[j + 1] = A[j];
-            j--;
+            --j;
         }
         A[j + 1] = key;
     }
@@ -87,8 +78,7 @@ void selectionSort(t_sort A[], int n) {
     for (int min, j, i = 0; i < n - 1; ++i) {
         min = i;
         for (j = i + 1; j < n; ++j)
-            if (A[j] < A[min])
-                min = j;
+            if (A[j] < A[min]) min = j;
         swap(A, i, min);
     }
 }
@@ -97,26 +87,9 @@ void selectionSort(t_sort A[], int n) {
 void merge(t_sort A[], int l, int m, int r) {
     t_sort merged[r - l + 1];
     int i = l, j = m + 1, k = 0;
-    while (i <= m && j <= r)
-        if (A[i] <= A[j]) { //!
-            merged[k] = A[i];
-            k++;
-            i++;
-        } else {
-            merged[k] = A[j];
-            k++;
-            j++;
-        }
-    while (i <= m) {
-        merged[k] = A[i];
-        i++;
-        k++;
-    }
-    while (j <= r) {
-        merged[k] = A[j];
-        j++;
-        k++;
-    }
+    while (i <= m && j <= r) merged[k++] = (A[i] <= A[j]) ? A[i++] : A[j++];
+    while (i <= m) merged[k++] = A[i++];
+    while (j <= r) merged[k++] = A[j++];
     for (i = l; i <= r; ++i) A[i] = merged[i - l];
 }
 
@@ -139,10 +112,7 @@ int partition(t_sort A[], int first, int last) {
     int i = first;
     t_sort pivot = A[first];
     for (int j = first + 1; j <= last; ++j)
-        if (A[j] < pivot) {
-            i++;
-            swap(A, i, j); //!*
-        }
+        if (A[j] < pivot) swap(A, ++i, j);
     swap(A, first, i);
     return i;
 }
@@ -161,13 +131,9 @@ void quicksort(t_sort A[], int n) {
 
 //Heap-Sort
 void heapify(t_sort A[], int i, int n) {
-    int l = left(i), r = right(i), largest;
-    if (l < n && A[l] > A[i]) //!
-        largest = l;
-    else
-        largest = i;
-    if (r < n && A[r] > A[largest])
-        largest = r;
+    int l = left(i), r = right(i);
+    int largest = (l < n && A[l] > A[i]) ? l : i;
+    if (r < n && A[r] > A[largest]) largest = r;
     if (largest != i) {
         swap(A, i, largest);
         heapify(A, largest, n);
