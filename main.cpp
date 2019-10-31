@@ -58,7 +58,8 @@ int main(int argc, char*argv[]) {
     }
 
     if (run) {
-        std:string line1, line2;
+        std:
+        string line1, line2;
         getline(cin, line1);
         getline(cin, line2);
 
@@ -92,20 +93,29 @@ int main(int argc, char*argv[]) {
         }
         cout << " done!" << endl;
 
-        pad_length = max(pad_count(minin), pad_count(maxin));
+        if (!(variation & 8) || (variation & 1024)) {
+            pad_length = max(pad_count(minin), pad_count(maxin));
+        }
 
-        cout << "Run list:" << endl;
-        printArray(run_list, n, ", ", 10);
-        cout << endl;
+        if (!(variation & 8)) {
+            cout << "Run list:" << endl;
+            printArray(run_list, n, ", ", 10);
+            cout << endl;
+        }
 
         t_sort test[n];
 
         int reps = (variation & 2) ? 5 : 1;
 
+        if (variation & 4) reps = (reps + 1) / 2;
+
+        if (variation & 16) reps = 1;
+
         vector<long> times[N_SORTS];
 
         for (int rep = 0; rep < reps; ++rep)
             for (int i = 0; i < N_SORTS; i++) {
+                //cout << "rep: " << rep << " i: " << i << endl;
                 //std::copy(std::begin(run_list), std::end(run_list), std::begin(test));
                 memcpy(test, run_list, sizeof(t_sort)*n);
 
@@ -113,21 +123,40 @@ int main(int argc, char*argv[]) {
 
                 cout << "Running: " << NAME[i] << endl;
 
-                auto start = std::chrono::high_resolution_clock::now();
-                (*SORTS[i])(test, n);
-                auto stop = std::chrono::high_resolution_clock::now();
+                if (!(variation & 16)) {
+                    auto start = std::chrono::high_resolution_clock::now();
+                    (*SORTS[i])(test, n); ///////////////////////////////////////////////count
+                    auto stop = std::chrono::high_resolution_clock::now();
 
-                auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+                    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(
+                            stop - start);
 
-                times[i].push_back(duration.count());
+                    times[i].push_back(duration.count());
 
-                cout << "Finished in " << duration.count() << "us" << endl;
+                    cout << "Finished in " << duration.count() << "us" << endl;
+                }
+                else {
+                    clearc();
+                    //printc();
+                    auto start = std::chrono::high_resolution_clock::now();
+                    (*SORTS_C[i])(test, n); ///////////////////////////////////////////////count
+                    auto stop = std::chrono::high_resolution_clock::now();
+
+                    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+                    times[i].push_back(duration.count());
+
+                    cout << "Finished in " << duration.count() << "us" << endl;
+
+                    printch();
+                    printc();
+                }
 
                 if (variation & 1) printArray(test, n, " < ", 10);
                 cout << endl;
             }
 
-        if (variation & 2)
+        if (reps > 1)
             for (int i = 0; i < N_SORTS; i++) {
                 sort(times[i].begin(), times[i].end(), greater <>());
                 cout << "Median time for: " << NAME[i] << " is " << times[i][reps/2] << "us" << endl;

@@ -1,0 +1,14 @@
+Using variation 14
+Reading 1000000 pairs.......... done!
+Using variation 14
+Reading 1000000 pairs.......... done!
+Using variation 14
+Reading 1000000 pairs.......... done!
+Using variation 14
+Reading 1000000 pairs.......... done!
+ f1 
+Using variation 14
+Reading 1000000 pairs.......... done!
+ f1 
+Using variation 14
+Reading 1000000 pairs.......... done!

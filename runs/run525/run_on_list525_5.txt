@@ -1,0 +1,22 @@
+Using variation 14
+Reading 250000 pairs.......... done!
+ f1 
+Running: Insertion-Sort
+Finished in 177328536us
+
+Running: Selection-Sort
+Finished in 172430786us
+
+Running: Merge-Sort
+Finished in 122817us
+
+Running: Quick-Sort
+Finished in 78794us
+
+Running: Heap-Sort
+Finished in 172961us
+
+Running: Bubble-Sort
+Finished in 623472821us
+
+Running: Insertion-Sort

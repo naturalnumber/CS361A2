@@ -1,0 +1,63 @@
+Using variation 14
+Reading 250000 pairs.......... done!
+ f1 
+Running: Insertion-Sort
+Finished in 160992238us
+
+Running: Selection-Sort
+Finished in 166332606us
+
+Running: Merge-Sort
+Finished in 122652us
+
+Running: Quick-Sort
+Finished in 78392us
+
+Running: Heap-Sort
+Finished in 171218us
+
+Running: Bubble-Sort
+Finished in 616744320us
+
+Running: Insertion-Sort
+Finished in 165849100us
+
+Running: Selection-Sort
+Finished in 167816859us
+
+Running: Merge-Sort
+Finished in 122997us
+
+Running: Quick-Sort
+Finished in 79033us
+
+Running: Heap-Sort
+Finished in 169905us
+
+Running: Bubble-Sort
+Finished in 617075559us
+
+Running: Insertion-Sort
+Finished in 163625329us
+
+Running: Selection-Sort
+Finished in 165606989us
+
+Running: Merge-Sort
+Finished in 117014us
+
+Running: Quick-Sort
+Finished in 79191us
+
+Running: Heap-Sort
+Finished in 164695us
+
+Running: Bubble-Sort
+Finished in 621354477us
+
+Median time for: Insertion-Sort is 163625329us
+Median time for: Selection-Sort is 166332606us
+Median time for: Merge-Sort is 122652us
+Median time for: Quick-Sort is 79033us
+Median time for: Heap-Sort is 169905us
+Median time for: Bubble-Sort is 617075559us
