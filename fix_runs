@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#for i in {1..4}; # low print
+#do
+#    ./do_all $i 42; 
+#done
+
+
+#for i in 5;
+#do 
+#    ./do_all $i 32;
+#done
+
+
+for i in {1..2};
+do 
+    list="${i}x32"
+    #for t in {0..5};
+    #do
+        for v in {0..7}; #1 2 5 7;
+        do
+            echo "command: do_all "$list" 66 $v" # $t"
+            ./do_all "$list" 66 $v; # $t;
+            echo "command: do_all "$i" 66 $v" # $t"
+            ./do_all "$i" 66 $v; # $t;
+            #echo "command: do_all "$list" 82 $v $t"
+            #./do_all "$list" 82 $v $t;
+            #./do_all "5_$i" 32;
+        done
+    #done
+    #for t in {0..2};
+    #do
+        for v in {0..7};
+        do
+            #./do_all "5_$i" 0 $v $t;
+            #./do_all "5_$i" 16 $v $t;
+            echo "command: do_all "$list" 98 $v" # $t"
+            ./do_all "$list" 98 $v; # $t;
+            echo "command: do_all "$i" 98 $v" # $t"
+            ./do_all "$i" 98 $v; # $t;
+        done
+    #done
+done

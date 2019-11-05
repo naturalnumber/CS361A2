@@ -32,22 +32,33 @@ inline int min(int a, int b) {
     return (a < b) ? a : b;
 }
 
-int main(int argc, char*argv[]) {
-    int variation = 0;
+const string DATA_TAG1 = "CS361A2DATA_1:";
+const string DATA_TAG2 = "CS361A2DATA_2:";
+const string DATA_TAG3 = "CS361A2DATA_3:";
+
+int main(int argc, char *argv[]) {
+    int flags = 0;
+    string settingstag = "";
 
     if (argc > 1) {
         std::string s = argv[1];
         std::stringstream ss(s);
-        ss >> variation;
+        ss >> flags;
 
-        cout << "Using variation " << variation << endl;
+        cout << "Using flags " << flags << endl;
+
+        settingstag.append("flag");
+        settingstag.append(std::to_string(flags));
     }
 
     bool run = true, run_test = false;
     bool mix = false;
+    std:
+    string option = "";
 
     if (argc > 2) {
-        std::string type = argv[2], option = (argc > 3) ? argv[3] : "";
+        std::string type = argv[2];
+        option += (argc > 3) ? argv[3] : "-1";
 
         run_test = type.compare("test") == 0;
         mix = option.compare("mix") == 0;
@@ -55,13 +66,21 @@ int main(int argc, char*argv[]) {
         run = !run_test;
 
         cout << "Running type " << type << " " << option << endl;
+        settingstag.append("opt");
+        settingstag.append(option);
     }
 
     if (run) {
-        std:
-        string line1, line2;
+        int doThis;
+        std::stringstream sso(option);
+        sso >> doThis;
+
+        std::string line1, line2;
         getline(cin, line1);
         getline(cin, line2);
+
+        settingstag.append(" ");
+        settingstag.append(line1);//.substr(0, line1.size()-1);
 
         std::string prefix = "Array Length is ";
         std::string number = line2.substr(prefix.size());
@@ -93,11 +112,11 @@ int main(int argc, char*argv[]) {
         }
         cout << " done!" << endl;
 
-        if (!(variation & 8) || (variation & 1024)) {
+        if (!(flags & 8) || (flags & 1024)) {
             pad_length = max(pad_count(minin), pad_count(maxin));
         }
 
-        if (!(variation & 8)) {
+        if ((flags & 8)) {
             cout << "Run list:" << endl;
             printArray(run_list, n, ", ", 10);
             cout << endl;
@@ -105,62 +124,229 @@ int main(int argc, char*argv[]) {
 
         t_sort test[n];
 
-        int reps = (variation & 2) ? 5 : 1;
+        int reps = (flags & 2) ? 5 : 1;
 
-        if (variation & 4) reps = (reps + 1) / 2;
+        if (flags & 4) reps = (reps + 1) / 2;
 
-        if (variation & 16) reps = 1;
+        if (flags & 16) reps = 1;
 
         vector<long> times[N_SORTS];
 
-        for (int rep = 0; rep < reps; ++rep)
-            for (int i = 0; i < N_SORTS; i++) {
-                //cout << "rep: " << rep << " i: " << i << endl;
-                //std::copy(std::begin(run_list), std::end(run_list), std::begin(test));
-                memcpy(test, run_list, sizeof(t_sort)*n);
+        for (int rep = 0; rep < reps; ++rep) {
+            if (!(flags & 32)) {
+                for (int i = 0; i < N_SORTS; i++) {
+                    if (doThis >= 0 && i != doThis) continue;
+                    //cout << "rep: " << rep << " i: " << i << endl;
+                    //std::copy(std::begin(run_list), std::end(run_list), std::begin(test));
+                    memcpy(test, run_list, sizeof(t_sort) * n);
 
-                if ((variation & 1024) && i == 0) printArray(run_list, n, ", ", 10);
+                    if ((flags & 1024) && i == 0) printArray(run_list, n, ", ", 10);
 
-                cout << "Running: " << NAME[i] << endl;
+                    cout << "Running: " << NAME[i] << endl;
 
-                if (!(variation & 16)) {
-                    auto start = std::chrono::high_resolution_clock::now();
-                    (*SORTS[i])(test, n); ///////////////////////////////////////////////count
-                    auto stop = std::chrono::high_resolution_clock::now();
+                    if (!(flags & 64)) {
+                        if (!(flags & 16)) {
+                            auto start = std::chrono::high_resolution_clock::now();
+                            (*SORTS[i])(test, n); ///////////////////////////////////////////////count
+                            auto stop = std::chrono::high_resolution_clock::now();
 
-                    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(
-                            stop - start);
+                            auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
 
-                    times[i].push_back(duration.count());
+                            times[i].push_back(duration.count());
 
-                    cout << "Finished in " << duration.count() << "us" << endl;
-                }
-                else {
-                    clearc();
-                    //printc();
-                    auto start = std::chrono::high_resolution_clock::now();
-                    (*SORTS_C[i])(test, n); ///////////////////////////////////////////////count
-                    auto stop = std::chrono::high_resolution_clock::now();
+                            cout << "Finished in " << duration.count() << "us" << endl;
 
-                    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+                            if (reps == 1) {
+                                string pre = "";
+                                string post = "";
 
-                    times[i].push_back(duration.count());
+                                pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                                post.append(",;").append(settingstag);
+                                cout << pre << duration.count() << "us" << post << endl;
+                            }
+                        } else {
+                            clearc();
+                            //printc();
+                            auto start = std::chrono::high_resolution_clock::now();
+                            (*SORTS_C[i])(test, n); ///////////////////////////////////////////////count
+                            auto stop = std::chrono::high_resolution_clock::now();
 
-                    cout << "Finished in " << duration.count() << "us" << endl;
+                            //std::chrono::nanoseconds
+                            auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
 
-                    printch();
-                    printc();
-                }
+                            times[i].push_back(duration.count());
 
-                if (variation & 1) printArray(test, n, " < ", 10);
-                cout << endl;
+                            cout << "Finished in " << duration.count() << "us" << endl;
+
+                            string pre = "";
+                            string post = "";
+
+                            pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                            post.append(",;").append(settingstag);
+
+                            printch();
+                            printc(pre, post);
+                        }
+                    } else {
+                        if (!(flags & 16)) {
+                            auto start = std::chrono::high_resolution_clock::now();
+                            (*SORTS[i])(test, n); ///////////////////////////////////////////////count
+                            auto stop = std::chrono::high_resolution_clock::now();
+
+                            auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start);
+
+                            times[i].push_back(duration.count());
+
+                            cout << "Finished in " << duration.count() << "ns" << endl;
+
+                            if (reps == 1) {
+                                string pre = "";
+                                string post = "";
+
+                                pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                                post.append(",;").append(settingstag);
+                                cout << pre << duration.count() << "ns" << post << endl;
+                            }
+                        } else {
+                            clearc();
+                            //printc();
+                            auto start = std::chrono::high_resolution_clock::now();
+                            (*SORTS_C[i])(test, n); ///////////////////////////////////////////////count
+                            auto stop = std::chrono::high_resolution_clock::now();
+
+                            //std::chrono::nanoseconds
+                            auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start);
+
+                            times[i].push_back(duration.count());
+
+                            cout << "Finished in " << duration.count() << "ns" << endl;
+
+                            string pre = "";
+                            string post = "";
+
+                            pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                            post.append(",;").append(settingstag);
+
+                            printch();
+                            printc(pre, post);
+                        }
+
+                        //for(int j = 0; j < 100; j++) for (int i = 0; i < 10000; ++i);
+                    }
+
+                    if (flags & 1) printArray(test, n, " < ", 10);
+                    cout << endl;
+                } // sorts loop
+
+            } else { // flag 32
+                for (int i = 0; i < N_SORTS_I; i++) {
+                    if (doThis >= 0 && i != doThis) continue;
+                    //if (i == 0) continue;
+                    //cout << "rep: " << rep << " i: " << i << endl;
+                    //std::copy(std::begin(run_list), std::end(run_list), std::begin(test));
+                    memcpy(test, run_list, sizeof(t_sort) * n);
+
+                    cout << "Running: " << NAME_I[i] << endl;
+
+                    if (!(flags & 64)) {
+                        auto start = std::chrono::high_resolution_clock::now();
+                        (*SORTS_I[i])(test, n); ///////////////////////////////////////////////count
+                        auto stop = std::chrono::high_resolution_clock::now();
+
+                        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+                        times[i].push_back(duration.count());
+
+                        cout << "Finished in " << duration.count() << "us" << endl;
+
+                        if (reps == 1) {
+                            string pre = "";
+                            string post = "";
+
+                            pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                            post.append(",;").append(settingstag);
+                            cout << pre << duration.count() << "us" << post << endl;
+                        }
+                    }
+                    else {
+                        auto start = std::chrono::high_resolution_clock::now();
+                        (*SORTS_I[i])(test, n); ///////////////////////////////////////////////count
+                        auto stop = std::chrono::high_resolution_clock::now();
+
+                        auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start);
+
+                        times[i].push_back(duration.count());
+
+                        cout << "Finished in " << duration.count() << "ns" << endl;
+
+                        if (reps == 1) {
+                            string pre = "";
+                            string post = "";
+
+                            pre.append(DATA_TAG3).append(",").append(NAME[i]).append(",").append(std::to_string(n)).append(",");
+                            post.append(",;").append(settingstag);
+                            cout << pre << duration.count() << "ns" << post << endl;
+                        }
+
+                        //for(int j = 0; j < 100; j++) for (int i = 0; i < 10000; ++i);
+                    }
+
+                    if (flags & 1) printArray(test, n, " < ", 10);
+                    cout << endl;
+                } // sorts_I loop
             }
+            //for (int i = 0; i < 100000; ++i);
+        } // reps loop
 
-        if (reps > 1)
-            for (int i = 0; i < N_SORTS; i++) {
-                sort(times[i].begin(), times[i].end(), greater <>());
-                cout << "Median time for: " << NAME[i] << " is " << times[i][reps/2] << "us" << endl;
+        if (reps > 1) {
+            string data = "";
+            if (!(flags & 32)) {
+                data.append(DATA_TAG1);
+                if (!(flags & 64)) {
+                    for (int i = 0; i < N_SORTS; i++) {
+                        if (doThis >= 0 && i != doThis) continue;
+                        sort(times[i].begin(), times[i].end(), greater<>());
+                        cout << "Median time for: " << NAME[i] << " is " << times[i][reps / 2] << "us" << endl;
+                        data.append(",");
+                        data.append(std::to_string(times[i][reps / 2]));
+                        data.append("us");
+                    }
+                } else {
+                    for (int i = 0; i < N_SORTS; i++) {
+                        if (doThis >= 0 && i != doThis) continue;
+                        sort(times[i].begin(), times[i].end(), greater<>());
+                        cout << "Median time for: " << NAME[i] << " is " << times[i][reps / 2] << "ns" << endl;
+                        data.append(",");
+                        data.append(std::to_string(times[i][reps / 2]));
+                        data.append("ns");
+                    }
+                }
             }
+            else {
+                data.append(DATA_TAG2);
+                if (!(flags & 64)) {
+                    for (int i = 0; i < N_SORTS_I; i++) {
+                        if (doThis >= 0 && i != doThis) continue;
+                        sort(times[i].begin(), times[i].end(), greater<>());
+                        cout << "Median time for: " << NAME_I[i] << " is " << times[i][reps / 2] << "us" << endl;
+                        data.append(",");
+                        data.append(std::to_string(times[i][reps / 2]));
+                        data.append("us");
+                    }
+                } else {
+                    for (int i = 0; i < N_SORTS_I; i++) {
+                        if (doThis >= 0 && i != doThis) continue;
+                        sort(times[i].begin(), times[i].end(), greater<>());
+                        cout << "Median time for: " << NAME_I[i] << " is " << times[i][reps / 2] << "ns" << endl;
+                        data.append(",");
+                        data.append(std::to_string(times[i][reps / 2]));
+                        data.append("ns");
+                    }
+                }
+            }
+            cout << data << ",;" << settingstag << endl;
+            //cout.flush();
+        }
     }
     if (run_test) {
         pad_length = 2 + mix;
@@ -177,7 +363,38 @@ int main(int argc, char*argv[]) {
 
             cout << "Testing: " << NAME[i] << endl;
 
+            auto start = std::chrono::high_resolution_clock::now();
             (*SORTS[i])(test, test_n);
+            auto stop = std::chrono::high_resolution_clock::now();
+
+            auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+            cout << "Finished in " << duration.count() << "us" << endl;
+
+            printArray(test, test_n, " < ", 5);
+            cout << endl;
+        }
+
+        for (int i = 0; i < N_SORTS_I; i++) {
+            t_sort test[test_n];
+            fillTest(test, mix);
+
+            if (i == 0) {
+                cout << "Testing list:" << endl;
+                printArray(test, test_n, ",  ", 5);
+                cout << endl;
+            }
+
+            cout << "Testing: " << NAME_I[i] << endl;
+
+
+            auto start = std::chrono::high_resolution_clock::now();
+            (*SORTS_I[i])(test, test_n); ///////////////////////////////////////////////count
+            auto stop = std::chrono::high_resolution_clock::now();
+
+            auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+            cout << "Finished in " << duration.count() << "us" << endl;
 
             printArray(test, test_n, " < ", 5);
             cout << endl;

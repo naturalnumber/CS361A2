@@ -1,0 +1,17 @@
+Using variation 8
+Reading 500000 pairs.......... done!
+Running: Insertion-Sort
+Finished in 632356673us
+
+Running: Selection-Sort
+Finished in 649991991us
+
+Running: Merge-Sort
+Using variation 8
+Reading 500000 pairs.......... done!
+Running: Quick-Sort
+Finished in 167400us
+
+Running: Heap-Sort
+Finished in 363577us
+

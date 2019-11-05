@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+for i in 5;
+do 
+    for v in {0..7};
+    do
+        args=`echo "8 + 4 + 2 + 1" | bc` #2 reps
+        echo "command: do_all_agg $i $args $v"
+        ./do_all_agg "$i" $args $v;
+
+        args=`echo "16 + 8 + 1" | bc` #16 count
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+
+        args=`echo "32 + 4 + 2" | bc` #32 improved + 2 reps
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+    done
+done
+
+for i in "5_1" "5x3" "5_2" "5x5";
+do 
+    list="${i}x32"
+    for v in {0..7};
+    do
+        args=`echo "8 + 1" | bc` #2 reps
+        echo "command: do_all_agg $i $args $v"
+        ./do_all_agg "$i" $args $v;
+
+        args=`echo "16 + 8 + 1" | bc` #16 count
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+
+        args=`echo "32" | bc` #32 improved + 2 reps
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+    done
+done

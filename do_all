@@ -14,17 +14,42 @@ v=0
 if [[ $# -gt 1 ]]
 then
     v=$2
-    echo "Running on variation $v"
+    echo "Running on flags $v"
 fi
 
-for i in {0..7};
-do
+if [[ $# -gt 2 ]]
+then
+    i=$3
     LIST_PATH="./lists/list"$n"_"$i
     RUN_PATH="./runs/run"$n"/"
     RUN_FILE="run_on_list"$n"_"$i".txt"
     [ -d $RUN_PATH ] || mkdir -p $RUN_PATH
     echo "Running variation $i"
-    ./cmake-build-debug/CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE
-done
+    if [[ $# -gt 3 ]]
+    then
+        echo "command: CS361A2 $v run $4 < $LIST_PATH &>> $RUN_PATH$RUN_FILE"
+        ./cmake-build-debug/CS361A2 $v "run" $4 < $LIST_PATH &>> $RUN_PATH$RUN_FILE
+    else
+        echo "command: CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE"
+        ./cmake-build-debug/CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE
+    fi
+else
+    for i in {0..7};
+    do
+        LIST_PATH="./lists/list"$n"_"$i
+        RUN_PATH="./runs/run"$n"/"
+        RUN_FILE="run_on_list"$n"_"$i".txt"
+        [ -d $RUN_PATH ] || mkdir -p $RUN_PATH
+        echo "Running variation $i"
+        if [[ $# -gt 3 ]]
+        then
+            echo "command: CS361A2 $v run $4 < $LIST_PATH &>> $RUN_PATH$RUN_FILE"
+            ./cmake-build-debug/CS361A2 $v "run" $4 < $LIST_PATH &>> $RUN_PATH$RUN_FILE
+        else
+            echo "command: CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE"
+            ./cmake-build-debug/CS361A2 $v < $LIST_PATH &>> $RUN_PATH$RUN_FILE
+        fi
+    done
+fi
 
 echo "Done..."

@@ -1,427 +1,188 @@
-./do_all: line 27: ./cmake-build-debug/CS361A2: No such file or directory
-Using variation 2
+Using variation 66
 Reading 100 pairs.......... done!
-Run list:
-(1496642114, 1006092441), (1755520840, 1124109734), (1775270452,  765818411), (1292941718,  135014363), (1300273579, 1973921603), ( 768092460,  825846150), (2095488654, 1011275616), ( 624671273, 1119758080), (1946282584,  308294149), (1413696899,   72865441), 
-( 588428996, 1321369255), (1347989633, 1965055254), (1781788972, 1731086945), (1033039114, 1511880056), (1648102577,   98102124), (1430291104,  702237981), ( 810860314,  445812304), ( 399562794,  330439467), ( 652862588,  672091353), (1804367476, 1661378544), 
-(1903117726,  218316491), (1713133430, 2119550963), ( 211642649,  162628693), (  57688662, 1119563465), (1260743489, 1087265349), ( 132387886, 2060628393), ( 627817670, 1960059904), (1310987662,  847579581), ( 370803737, 1100712751), (1104165056,  635388477), 
-(1110961551,  288780600), (1165919437,  202730044), ( 763027014,  223224435), (1158436161, 2140146239), ( 983365066, 1281643288), ( 871278257, 1082442131), ( 928688758, 2067213817), ( 929132536,  340382554), ( 889701531, 1101556979), (1019603012,   12888937), 
-(1820004450,  611803941), (1002435028,  598968020), (1855012465,  572395741), (1681014141, 1706159173), (1616291663, 1276194134), (2035925745, 1234718736), (  52963719,  476266019), ( 386398654,  396790790), (1227551374, 1185588329), ( 614217495,  622429964), 
-( 895175268, 1161472974), ( 852225109, 1996206186), (1207069180, 1654625076), ( 105516603,   24160995), ( 916671579, 2126360357), ( 230510844, 1132182408), ( 815691394, 1343449612), (  69565692, 2105633868), (1863111180, 1628330535), (2131741784, 1157901910), 
-(1366388374,  151213375), ( 683287847,  870038553), (1166172642,  568948245), (1718975613, 1930941220), (1004050105,  957888410), ( 721885747, 1657644473), (1740015251, 2095607270), ( 882437480,  483428382), ( 196485623,  632849637), (1999166918,  343241142), 
-( 301835171,  457401552), (1925650820,  289503694), ( 804994666,  369789026), ( 901996590, 1186171959), (1465391584, 2082677958), (1259955750, 1193863576), ( 837942711,  989210449), (1415317737,  321693567), (1777089511, 1546860788), ( 273657873,   80892988), 
-(2114414992,  389477231), ( 217294622, 1461423725), (1645233822,  503563333), (1174030323,  146304088), ( 723874864, 1730031987), (1856010785, 1538475771), ( 125068728,  838580190), ( 678682342,  816254179), (1125976290,  148171663), (1696086514, 2109801663), 
-( 403486773, 2113573281), ( 886810351,  577586099), ( 174061690, 1684912117), (1085933503, 1442722668), ( 279662815, 1171956395), ( 820983682, 1937720311), (1211830746, 1399257935), (1053323870, 1620204881), (1964649166,  321049045), ( 860132861, 1359510718)
-
-Running: Insertion-Sort
-Finished in 30us
-
-Running: Selection-Sort
-Finished in 32us
-
-Running: Merge-Sort
-Finished in 20us
-
-Running: Quick-Sort
-Finished in 12us
-
-Running: Heap-Sort
-Finished in 24us
-
-Running: Bubble-Sort
-Finished in 91us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 32us
-
-Running: Merge-Sort
-Finished in 19us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 32us
-
-Running: Merge-Sort
-Finished in 18us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 86us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 31us
-
-Running: Merge-Sort
-Finished in 18us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 86us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 31us
-
-Running: Merge-Sort
-Finished in 21us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Median time for: Insertion-Sort is 29us
-Median time for: Selection-Sort is 32us
-Median time for: Merge-Sort is 19us
-Median time for: Quick-Sort is 11us
-Median time for: Heap-Sort is 22us
-Median time for: Bubble-Sort is 87us
-Using variation 2
+Using variation 98
 Reading 100 pairs.......... done!
-Run list:
-(1496642114, 1006092441), (1755520840, 1124109734), (1775270452,  765818411), (1292941718,  135014363), (1300273579, 1973921603), ( 768092460,  825846150), (2095488654, 1011275616), ( 624671273, 1119758080), (1946282584,  308294149), (1413696899,   72865441), 
-( 588428996, 1321369255), (1347989633, 1965055254), (1781788972, 1731086945), (1033039114, 1511880056), (1648102577,   98102124), (1430291104,  702237981), ( 810860314,  445812304), ( 399562794,  330439467), ( 652862588,  672091353), (1804367476, 1661378544), 
-(1903117726,  218316491), (1713133430, 2119550963), ( 211642649,  162628693), (  57688662, 1119563465), (1260743489, 1087265349), ( 132387886, 2060628393), ( 627817670, 1960059904), (1310987662,  847579581), ( 370803737, 1100712751), (1104165056,  635388477), 
-(1110961551,  288780600), (1165919437,  202730044), ( 763027014,  223224435), (1158436161, 2140146239), ( 983365066, 1281643288), ( 871278257, 1082442131), ( 928688758, 2067213817), ( 929132536,  340382554), ( 889701531, 1101556979), (1019603012,   12888937), 
-(1820004450,  611803941), (1002435028,  598968020), (1855012465,  572395741), (1681014141, 1706159173), (1616291663, 1276194134), (2035925745, 1234718736), (  52963719,  476266019), ( 386398654,  396790790), (1227551374, 1185588329), ( 614217495,  622429964), 
-( 895175268, 1161472974), ( 852225109, 1996206186), (1207069180, 1654625076), ( 105516603,   24160995), ( 916671579, 2126360357), ( 230510844, 1132182408), ( 815691394, 1343449612), (  69565692, 2105633868), (1863111180, 1628330535), (2131741784, 1157901910), 
-(1366388374,  151213375), ( 683287847,  870038553), (1166172642,  568948245), (1718975613, 1930941220), (1004050105,  957888410), ( 721885747, 1657644473), (1740015251, 2095607270), ( 882437480,  483428382), ( 196485623,  632849637), (1999166918,  343241142), 
-( 301835171,  457401552), (1925650820,  289503694), ( 804994666,  369789026), ( 901996590, 1186171959), (1465391584, 2082677958), (1259955750, 1193863576), ( 837942711,  989210449), (1415317737,  321693567), (1777089511, 1546860788), ( 273657873,   80892988), 
-(2114414992,  389477231), ( 217294622, 1461423725), (1645233822,  503563333), (1174030323,  146304088), ( 723874864, 1730031987), (1856010785, 1538475771), ( 125068728,  838580190), ( 678682342,  816254179), (1125976290,  148171663), (1696086514, 2109801663), 
-( 403486773, 2113573281), ( 886810351,  577586099), ( 174061690, 1684912117), (1085933503, 1442722668), ( 279662815, 1171956395), ( 820983682, 1937720311), (1211830746, 1399257935), (1053323870, 1620204881), (1964649166,  321049045), ( 860132861, 1359510718)
-
-Running: Insertion-Sort
-Finished in 33us
-
-Running: Selection-Sort
-Finished in 31us
-
-Running: Merge-Sort
-Finished in 19us
-
-Running: Quick-Sort
-Finished in 12us
-
-Running: Heap-Sort
-Finished in 31us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 32us
-
-Running: Merge-Sort
-Finished in 19us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 32us
-
-Running: Merge-Sort
-Finished in 18us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 31us
-
-Running: Merge-Sort
-Finished in 19us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Running: Insertion-Sort
-Finished in 29us
-
-Running: Selection-Sort
-Finished in 31us
-
-Running: Merge-Sort
-Finished in 18us
-
-Running: Quick-Sort
-Finished in 11us
-
-Running: Heap-Sort
-Finished in 22us
-
-Running: Bubble-Sort
-Finished in 87us
-
-Median time for: Insertion-Sort is 29us
-Median time for: Selection-Sort is 31us
-Median time for: Merge-Sort is 19us
-Median time for: Quick-Sort is 11us
-Median time for: Heap-Sort is 22us
-Median time for: Bubble-Sort is 87us
-Using variation 2
+Using variation 66
 Reading 100 pairs.......... done!
- f1 
-Run list:
-(1496642114, 1006092441), (1755520840, 1124109734), (1775270452,  765818411), (1292941718,  135014363), (1300273579, 1973921603), ( 768092460,  825846150), (2095488654, 1011275616), ( 624671273, 1119758080), (1946282584,  308294149), (1413696899,   72865441), 
-( 588428996, 1321369255), (1347989633, 1965055254), (1781788972, 1731086945), (1033039114, 1511880056), (1648102577,   98102124), (1430291104,  702237981), ( 810860314,  445812304), ( 399562794,  330439467), ( 652862588,  672091353), (1804367476, 1661378544), 
-(1903117726,  218316491), (1713133430, 2119550963), ( 211642649,  162628693), (  57688662, 1119563465), (1260743489, 1087265349), ( 132387886, 2060628393), ( 627817670, 1960059904), (1310987662,  847579581), ( 370803737, 1100712751), (1104165056,  635388477), 
-(1110961551,  288780600), (1165919437,  202730044), ( 763027014,  223224435), (1158436161, 2140146239), ( 983365066, 1281643288), ( 871278257, 1082442131), ( 928688758, 2067213817), ( 929132536,  340382554), ( 889701531, 1101556979), (1019603012,   12888937), 
-(1820004450,  611803941), (1002435028,  598968020), (1855012465,  572395741), (1681014141, 1706159173), (1616291663, 1276194134), (2035925745, 1234718736), (  52963719,  476266019), ( 386398654,  396790790), (1227551374, 1185588329), ( 614217495,  622429964), 
-( 895175268, 1161472974), ( 852225109, 1996206186), (1207069180, 1654625076), ( 105516603,   24160995), ( 916671579, 2126360357), ( 230510844, 1132182408), ( 815691394, 1343449612), (  69565692, 2105633868), (1863111180, 1628330535), (2131741784, 1157901910), 
-(1366388374,  151213375), ( 683287847,  870038553), (1166172642,  568948245), (1718975613, 1930941220), (1004050105,  957888410), ( 721885747, 1657644473), (1740015251, 2095607270), ( 882437480,  483428382), ( 196485623,  632849637), (1999166918,  343241142), 
-( 301835171,  457401552), (1925650820,  289503694), ( 804994666,  369789026), ( 901996590, 1186171959), (1465391584, 2082677958), (1259955750, 1193863576), ( 837942711,  989210449), (1415317737,  321693567), (1777089511, 1546860788), ( 273657873,   80892988), 
-(2114414992,  389477231), ( 217294622, 1461423725), (1645233822,  503563333), (1174030323,  146304088), ( 723874864, 1730031987), (1856010785, 1538475771), ( 125068728,  838580190), ( 678682342,  816254179), (1125976290,  148171663), (1696086514, 2109801663), 
-( 403486773, 2113573281), ( 886810351,  577586099), ( 174061690, 1684912117), (1085933503, 1442722668), ( 279662815, 1171956395), ( 820983682, 1937720311), (1211830746, 1399257935), (1053323870, 1620204881), (1964649166,  321049045), ( 860132861, 1359510718)
-
 Running: Insertion-Sort
-Finished in 29us
+Finished in 8023us
 
 Running: Selection-Sort
-Finished in 40us
+Finished in 32555us
 
 Running: Merge-Sort
-Finished in 38us
+Finished in 20764us
 
 Running: Quick-Sort
-Finished in 20us
+Finished in 11186us
 
 Running: Heap-Sort
-Finished in 22us
+Finished in 29030us
 
 Running: Bubble-Sort
-Finished in 84us
+Finished in 64319us
 
+Median time for: Insertion-Sort is 0ns
+Median time for: Selection-Sort is 0ns
+Median time for: Merge-Sort is 0ns
+Median time for: Quick-Sort is 0ns
+Median time for: Heap-Sort is 0ns
+Median time for: Bubble-Sort is 0ns
 Running: Insertion-Sort
-Finished in 28us
+Finished in 7771us
 
 Running: Selection-Sort
-Finished in 31us
+Finished in 32492us
 
 Running: Merge-Sort
-Finished in 18us
+Finished in 18053us
 
 Running: Quick-Sort
-Finished in 11us
+Finished in 10242us
 
 Running: Heap-Sort
-Finished in 22us
+Finished in 23431us
 
 Running: Bubble-Sort
-Finished in 84us
+Finished in 61702us
 
+Median time for: Insertion-Sort is 0ns
+Median time for: Selection-Sort is 0ns
+Median time for: Merge-Sort is 0ns
+Median time for: Quick-Sort is 0ns
+Median time for: Heap-Sort is 0ns
+Median time for: Bubble-Sort is 0ns
 Running: Insertion-Sort
-Finished in 28us
+Finished in 7788us
 
 Running: Selection-Sort
-Finished in 31us
+Finished in 32327us
 
 Running: Merge-Sort
-Finished in 18us
+Finished in 17530us
 
 Running: Quick-Sort
-Finished in 11us
+Finished in 10102us
 
 Running: Heap-Sort
-Finished in 21us
+Finished in 22938us
 
 Running: Bubble-Sort
-Finished in 83us
+Finished in 61375us
 
+Median time for: Insertion-Sort is 7771ns
+Median time for: Selection-Sort is 32327ns
+Median time for: Merge-Sort is 17530ns
+Median time for: Quick-Sort is 10102ns
+Median time for: Heap-Sort is 22938ns
+Median time for: Bubble-Sort is 61375ns
 Running: Insertion-Sort
-Finished in 28us
+Finished in 7767us
 
 Running: Selection-Sort
-Finished in 31us
+Finished in 32201us
 
 Running: Merge-Sort
-Finished in 18us
+Finished in 17277us
 
 Running: Quick-Sort
-Finished in 11us
+Finished in 9998us
 
 Running: Heap-Sort
-Finished in 21us
+Finished in 22928us
 
 Running: Bubble-Sort
-Finished in 83us
+Finished in 61750us
 
+Median time for: Insertion-Sort is 7771ns
+Median time for: Selection-Sort is 32327ns
+Median time for: Merge-Sort is 17530ns
+Median time for: Quick-Sort is 10102ns
+Median time for: Heap-Sort is 22938ns
+Median time for: Bubble-Sort is 61702ns
 Running: Insertion-Sort
-Finished in 29us
+Finished in 7680us
 
 Running: Selection-Sort
-Finished in 30us
+Finished in 32091us
 
 Running: Merge-Sort
-Finished in 18us
+Finished in 17468us
 
 Running: Quick-Sort
-Finished in 10us
+Finished in 10086us
 
 Running: Heap-Sort
-Finished in 30us
+Finished in 24357us
 
 Running: Bubble-Sort
-Finished in 86us
+Finished in 61414us
 
-Median time for: Insertion-Sort is 28us
-Median time for: Selection-Sort is 31us
-Median time for: Merge-Sort is 18us
-Median time for: Quick-Sort is 11us
-Median time for: Heap-Sort is 22us
-Median time for: Bubble-Sort is 84us
-Using variation 16
+Median time for: Insertion-Sort is 7771ns
+Median time for: Selection-Sort is 32327ns
+Median time for: Merge-Sort is 17530ns
+Median time for: Quick-Sort is 10102ns
+Median time for: Heap-Sort is 23431ns
+Median time for: Bubble-Sort is 61702ns
+Using variation 98
 Reading 100 pairs.......... done!
-Run list:
-(1496642114, 1006092441), (1755520840, 1124109734), (1775270452,  765818411), (1292941718,  135014363), (1300273579, 1973921603), ( 768092460,  825846150), (2095488654, 1011275616), ( 624671273, 1119758080), (1946282584,  308294149), (1413696899,   72865441), 
-( 588428996, 1321369255), (1347989633, 1965055254), (1781788972, 1731086945), (1033039114, 1511880056), (1648102577,   98102124), (1430291104,  702237981), ( 810860314,  445812304), ( 399562794,  330439467), ( 652862588,  672091353), (1804367476, 1661378544), 
-(1903117726,  218316491), (1713133430, 2119550963), ( 211642649,  162628693), (  57688662, 1119563465), (1260743489, 1087265349), ( 132387886, 2060628393), ( 627817670, 1960059904), (1310987662,  847579581), ( 370803737, 1100712751), (1104165056,  635388477), 
-(1110961551,  288780600), (1165919437,  202730044), ( 763027014,  223224435), (1158436161, 2140146239), ( 983365066, 1281643288), ( 871278257, 1082442131), ( 928688758, 2067213817), ( 929132536,  340382554), ( 889701531, 1101556979), (1019603012,   12888937), 
-(1820004450,  611803941), (1002435028,  598968020), (1855012465,  572395741), (1681014141, 1706159173), (1616291663, 1276194134), (2035925745, 1234718736), (  52963719,  476266019), ( 386398654,  396790790), (1227551374, 1185588329), ( 614217495,  622429964), 
-( 895175268, 1161472974), ( 852225109, 1996206186), (1207069180, 1654625076), ( 105516603,   24160995), ( 916671579, 2126360357), ( 230510844, 1132182408), ( 815691394, 1343449612), (  69565692, 2105633868), (1863111180, 1628330535), (2131741784, 1157901910), 
-(1366388374,  151213375), ( 683287847,  870038553), (1166172642,  568948245), (1718975613, 1930941220), (1004050105,  957888410), ( 721885747, 1657644473), (1740015251, 2095607270), ( 882437480,  483428382), ( 196485623,  632849637), (1999166918,  343241142), 
-( 301835171,  457401552), (1925650820,  289503694), ( 804994666,  369789026), ( 901996590, 1186171959), (1465391584, 2082677958), (1259955750, 1193863576), ( 837942711,  989210449), (1415317737,  321693567), (1777089511, 1546860788), ( 273657873,   80892988), 
-(2114414992,  389477231), ( 217294622, 1461423725), (1645233822,  503563333), (1174030323,  146304088), ( 723874864, 1730031987), (1856010785, 1538475771), ( 125068728,  838580190), ( 678682342,  816254179), (1125976290,  148171663), (1696086514, 2109801663), 
-( 403486773, 2113573281), ( 886810351,  577586099), ( 174061690, 1684912117), (1085933503, 1442722668), ( 279662815, 1171956395), ( 820983682, 1937720311), (1211830746, 1399257935), (1053323870, 1620204881), (1964649166,  321049045), ( 860132861, 1359510718)
+Running: High Quick-Sort
+Finished in 35587ns
 
- f1 
-Running: Insertion-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 75us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-2781,99,0,0,0,99,2682,2979,2781,0,5662,0,0,0,2881,1,0,2,2,8343,0,1,0,0
+Running: Median Quick-Sort
+Finished in 31118ns
 
-Running: Selection-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 72us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-99,1,0,0,0,5049,0,859,0,0,10099,0,0,4950,5149,1,0,2,3,10296,0,99,0,0
+Running: Better Bubble-Sort
+Finished in 94322ns
 
-Running: Merge-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 61us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-396,771,0,99,0,2688,0,1839,642,0,3124,543,0,199,1740,298,0,993,396,3102,0,0,99,672
+Median time for: High Quick-Sort is 0ns
+Median time for: Median Quick-Sort is 0ns
+Median time for: Better Bubble-Sort is 0ns
+Running: High Quick-Sort
+Finished in 29968ns
 
-Running: Quick-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 28us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-128,64,0,0,0,1002,0,1524,0,0,1437,0,0,751,686,193,64,579,192,2462,0,508,0,0
+Running: Median Quick-Sort
+Finished in 29462ns
 
-Running: Heap-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 52us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-1262,1,1262,1,0,0,150,3856,1262,0,3307,631,0,1262,152,632,0,1895,1895,4844,0,580,0,0
+Running: Better Bubble-Sort
+Finished in 93584ns
 
-Running: Bubble-Sort
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Finished in 203us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-0,11295,0,0,0,8613,0,10903,0,0,8700,0,88,8613,8788,1,0,2,1,27954,1,2682,0,0
+Median time for: High Quick-Sort is 0ns
+Median time for: Median Quick-Sort is 0ns
+Median time for: Better Bubble-Sort is 0ns
+Running: High Quick-Sort
+Finished in 29582ns
 
-Using variation 16
-Reading 100 pairs.......... done!
-Run list:
-(1496642114, 1006092441), (1755520840, 1124109734), (1775270452,  765818411), (1292941718,  135014363), (1300273579, 1973921603), ( 768092460,  825846150), (2095488654, 1011275616), ( 624671273, 1119758080), (1946282584,  308294149), (1413696899,   72865441), 
-( 588428996, 1321369255), (1347989633, 1965055254), (1781788972, 1731086945), (1033039114, 1511880056), (1648102577,   98102124), (1430291104,  702237981), ( 810860314,  445812304), ( 399562794,  330439467), ( 652862588,  672091353), (1804367476, 1661378544), 
-(1903117726,  218316491), (1713133430, 2119550963), ( 211642649,  162628693), (  57688662, 1119563465), (1260743489, 1087265349), ( 132387886, 2060628393), ( 627817670, 1960059904), (1310987662,  847579581), ( 370803737, 1100712751), (1104165056,  635388477), 
-(1110961551,  288780600), (1165919437,  202730044), ( 763027014,  223224435), (1158436161, 2140146239), ( 983365066, 1281643288), ( 871278257, 1082442131), ( 928688758, 2067213817), ( 929132536,  340382554), ( 889701531, 1101556979), (1019603012,   12888937), 
-(1820004450,  611803941), (1002435028,  598968020), (1855012465,  572395741), (1681014141, 1706159173), (1616291663, 1276194134), (2035925745, 1234718736), (  52963719,  476266019), ( 386398654,  396790790), (1227551374, 1185588329), ( 614217495,  622429964), 
-( 895175268, 1161472974), ( 852225109, 1996206186), (1207069180, 1654625076), ( 105516603,   24160995), ( 916671579, 2126360357), ( 230510844, 1132182408), ( 815691394, 1343449612), (  69565692, 2105633868), (1863111180, 1628330535), (2131741784, 1157901910), 
-(1366388374,  151213375), ( 683287847,  870038553), (1166172642,  568948245), (1718975613, 1930941220), (1004050105,  957888410), ( 721885747, 1657644473), (1740015251, 2095607270), ( 882437480,  483428382), ( 196485623,  632849637), (1999166918,  343241142), 
-( 301835171,  457401552), (1925650820,  289503694), ( 804994666,  369789026), ( 901996590, 1186171959), (1465391584, 2082677958), (1259955750, 1193863576), ( 837942711,  989210449), (1415317737,  321693567), (1777089511, 1546860788), ( 273657873,   80892988), 
-(2114414992,  389477231), ( 217294622, 1461423725), (1645233822,  503563333), (1174030323,  146304088), ( 723874864, 1730031987), (1856010785, 1538475771), ( 125068728,  838580190), ( 678682342,  816254179), (1125976290,  148171663), (1696086514, 2109801663), 
-( 403486773, 2113573281), ( 886810351,  577586099), ( 174061690, 1684912117), (1085933503, 1442722668), ( 279662815, 1171956395), ( 820983682, 1937720311), (1211830746, 1399257935), (1053323870, 1620204881), (1964649166,  321049045), ( 860132861, 1359510718)
+Running: Median Quick-Sort
+Finished in 29884ns
 
-Running: Insertion-Sort
-Finished in 63us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-2781,99,0,0,0,99,2682,2979,2781,0,5662,0,0,0,2881,1,0,2,2,8343,0,1,0,0
+Running: Better Bubble-Sort
+Finished in 94328ns
 
-Running: Selection-Sort
-Finished in 61us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-99,1,0,0,0,5049,0,859,0,0,10099,0,0,4950,5149,1,0,2,3,10296,0,99,0,0
+Median time for: High Quick-Sort is 29582ns
+Median time for: Median Quick-Sort is 29462ns
+Median time for: Better Bubble-Sort is 93584ns
+Running: High Quick-Sort
+Finished in 28895ns
 
-Running: Merge-Sort
-Finished in 41us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-396,771,0,99,0,2688,0,1839,642,0,3124,543,0,199,1740,298,0,993,396,3102,0,0,99,672
+Running: Median Quick-Sort
+Finished in 28188ns
 
-Running: Quick-Sort
-Finished in 24us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-128,64,0,0,0,1002,0,1524,0,0,1437,0,0,751,686,193,64,579,192,2462,0,508,0,0
+Running: Better Bubble-Sort
+Finished in 93566ns
 
-Running: Heap-Sort
-Finished in 45us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-1262,1,1262,1,0,0,150,3856,1262,0,3307,631,0,1262,152,632,0,1895,1895,4844,0,580,0,0
+Median time for: High Quick-Sort is 29582ns
+Median time for: Median Quick-Sort is 29462ns
+Median time for: Better Bubble-Sort is 93584ns
+Running: High Quick-Sort
+Finished in 28740ns
 
-Running: Bubble-Sort
-Finished in 171us
-additions,subtractions,multiplications,divisions,modulos,increments,decrements,assignments,ands,ors,comparissons,ternaries,boolean_checks,ifs,loops,calls,returns,passed_words,declarations_integer,array_references,declarations_boolean,declarations_points,declarations_array,declarations_array_length
-0,11295,0,0,0,8613,0,10903,0,0,8700,0,88,8613,8788,1,0,2,1,27954,1,2682,0,0
+Running: Median Quick-Sort
+Finished in 28284ns
 
+Running: Better Bubble-Sort
+Finished in 94221ns
+
+Median time for: High Quick-Sort is 29582ns
+Median time for: Median Quick-Sort is 29462ns
+Median time for: Better Bubble-Sort is 94221ns

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-n="525"
+n="3"
 
 if [[ $# -gt 0 ]]
 then
@@ -29,4 +29,4 @@ done
 
 echo "Done..."
 
-./do_all 5 24
+./do_all 3 24

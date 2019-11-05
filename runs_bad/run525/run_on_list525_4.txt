@@ -1,0 +1,83 @@
+Using variation 14
+Reading 250000 pairs.......... done!
+ f1 
+Running: Insertion-Sort
+Finished in 165526035us
+
+Running: Selection-Sort
+Finished in 166401986us
+
+Running: Merge-Sort
+Finished in 117810us
+
+Running: Quick-Sort
+Finished in 74983us
+
+Running: Heap-Sort
+Finished in 164233us
+
+Running: Bubble-Sort
+Finished in 627685018us
+
+Running: Insertion-Sort
+Finished in 168032480us
+
+Running: Selection-Sort
+Finished in 168790953us
+
+Running: Merge-Sort
+Finished in 122376us
+
+Running: Quick-Sort
+Finished in 78675us
+
+Running: Heap-Sort
+Finished in 171983us
+
+Running: Bubble-Sort
+Finished in 623717003us
+
+Running: Insertion-Sort
+Finished in 165540841us
+
+Running: Selection-Sort
+Finished in 171351601us
+
+Running: Merge-Sort
+Finished in 117230us
+
+Running: Quick-Sort
+Finished in 75840us
+
+Running: Heap-Sort
+Finished in 165424us
+
+Running: Bubble-Sort
+Finished in 617956431us
+
+Median time for: Insertion-Sort is 165540841us
+Median time for: Selection-Sort is 168790953us
+Median time for: Merge-Sort is 117810us
+Median time for: Quick-Sort is 75840us
+Median time for: Heap-Sort is 165424us
+Median time for: Bubble-Sort is 623717003us
+Using variation 8
+Reading 250000 pairs.......... done!
+Running: Insertion-Sort
+Finished in 152733689us
+
+Running: Selection-Sort
+Finished in 157334058us
+
+Running: Merge-Sort
+Finished in 115591us
+
+Running: Quick-Sort
+Finished in 74281us
+
+Running: Heap-Sort
+Finished in 163745us
+
+Running: Bubble-Sort
+Finished in 654955330us
+

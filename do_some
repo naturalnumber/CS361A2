@@ -30,3 +30,8 @@ done
 echo "Done..."
 
 ./do_all 5 24
+
+./do_all 525 8
+
+./do_all 55 8
+

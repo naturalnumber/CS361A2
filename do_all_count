@@ -1,0 +1,127 @@
+#!/bin/bash
+
+#Nano
+#for i in {1..2};
+#do 
+#    list="${i}x32"
+#    for v in {0..7};
+#    do
+#        args=`echo "64 + 16 + 8 + 1" | bc` #64 nano + 16 count
+#        echo "command: do_all_agg "$i" $args $v"
+#        ./do_all_agg "$i" $args $v;
+#        echo "command: do_all_agg "$list" $args $v"
+#        ./do_all_agg "$list" $args $v;
+#    done
+#done
+
+#Nano
+#for i in {3..4};
+#do 
+#    list="${i}x32"
+#    for v in {0..7};
+#    do
+#        args=`echo "16 + 8 + 1" | bc` #16 count
+#        echo "command: do_all_agg "$i" $args $v"
+#        ./do_all_agg "$i" $args $v;
+#        echo "command: do_all_agg "$list" $args $v"
+#        ./do_all_agg "$list" $args $v;
+
+#    done
+#done
+
+#for i in 5;
+#do 
+#    for t in {0..5};
+#    do
+#        for v in {0..7};
+#        do
+#            args=`echo "16 + 8 + 1" | bc` #16 count
+#            echo "command: do_all_agg "$i" $args $v $t"
+#            ./do_all_agg "$i" $args $v $t;
+#        done
+#    done
+#done
+
+#for i in "5_2"; #
+#do 
+#    for t in 5;
+#    do
+#        for v in 7;
+#        do
+#            args=`echo "16 + 8 + 1" | bc` #16 count
+#            echo "command: do_all_agg "$i" $args $v $t"
+#            ./do_all_agg "$i" $args $v $t;
+#        done
+#    done
+#done
+
+
+
+
+
+#Nano
+for i in {1..2};
+do 
+    list="${i}x32"
+    for v in {0..7};
+    do
+        args=`echo "64 + 32 + 2" | bc` #64 nano + 32 improved + 2 reps
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+        echo "command: do_all_agg "$list" $args $v"
+        ./do_all_agg "$list" $args $v;
+    done
+done
+
+#Nano
+for i in {3..4};
+do 
+    list="${i}x32"
+    for v in {0..7};
+    do
+        args=`echo "32 + 2" | bc` #32 improved + 2 reps
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+        echo "command: do_all_agg "$list" $args $v"
+        ./do_all_agg "$list" $args $v;
+    done
+done
+
+
+for i in 5;
+do 
+    for v in {0..7};
+    do
+        args=`echo "32 + 4 + 2" | bc` #32 improved + 2 reps
+        echo "command: do_all_agg "$i" $args $v"
+        ./do_all_agg "$i" $args $v;
+    done
+done
+
+for i in "5_1" "5x3" "5_2" "5x5";
+do 
+    for t in {0..1};
+    do
+        for v in {0..7};
+        do
+            args=`echo "32" | bc` #32 improved + 2 reps
+            echo "command: do_all_agg "$i" $args $v $t"
+            ./do_all_agg "$i" $args $v $t;
+        done
+    done
+done
+
+
+
+for i in "5x5"; #
+do 
+    for t in 5;
+    do
+        for v in {2..7};
+        do
+            args=`echo "16 + 8 + 1" | bc` #16 count
+            echo "command: do_all_agg "$i" $args $v $t"
+            ./do_all_agg "$i" $args $v $t;
+        done
+    done
+done

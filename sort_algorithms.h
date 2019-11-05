@@ -196,44 +196,299 @@ void BetterBubbleSort(t_sort A[], int n) {
     }
 }
 
+// merge alt
+
+void merge_(t_sort A[], int l, int m, int r) {
+    t_sort merged[r - l + 1];
+    int i = l, j = m + 1, k = 0;
+
+
+    while (i <= m && j <= r) merged[k++] = (A[i] <= A[j]) ? A[i++] : A[j++];
+    while (i <= m) merged[k++] = A[i++];
+    while (j <= r) merged[k++] = A[j++];
+    for (i = l; i <= r; ++i) A[i] = merged[i - l];
+}
+
+void mergeSort_(t_sort A[], int first, int last) {
+    if (first < last) {
+        int middle = (first + last) / 2;
+        mergeSort(A, first, middle);
+        mergeSort(A, middle + 1, last);
+        merge(A, first, middle, last);
+    }
+}
+
+void mergeSort_(t_sort A[], int n) {
+    mergeSort(A, 0, n - 1);
+}
+
+
+// radix~
+
+#define PAIR_ULONG(p) ((ulong(long(p.first)+0x80000000) << 32 + p.second)+0x80000000)
+#define PAIR_LONG(p) (((long(p.first)) << 32) + p.second)
+#define RADIX_v 256
+#define RADIX_pdiv(i, e) ( (e < 4) ? (e == 0) ? PAIR_LONG(i) : ((long(i.first) << ((4-e)*8)) | (i.second >> (e*8))) : (long(i.first) >> ((e-4)*8)) )
+#define RADIX_div(i, e) ((i) >> (e*8))
+#define RADIX_mod(i) ((i) & 0b11111111)
+#define RADIX_pdivmod(i, e) ( (e < 4) ? RADIX_mod(long(i.second) >> (e*8)) : RADIX_mod(long(i.first) >> ((e-4)*8)) )
+#define RADIX_divmod(i, e) RADIX_mod(RADIX_div(i, e))
+
+t_sort max(t_sort A[], int n) {
+    t_sort m = A[0];
+    for (int i = 1; i < n; ++i)
+        if (A[i] > m)
+            m = A[i];
+    return m;
+}
+
+void countSort(t_sort A[], int n, int e) {
+    t_sort out[n];
+    int i, count[RADIX_v] = { };
+
+    for (i = 0; i < n; ++i) count[RADIX_divmod(PAIR_LONG(A[i]), e)]++;
+
+    for (i = 1; i < RADIX_v; ++i) count[i] += count[i - 1];
+
+    for (i = n - 1; i >= 0; --i) {
+        out[count[RADIX_pdivmod((A[i]), e)] - 1] = A[i];
+        count[RADIX_pdivmod((A[i]), e)]--;
+    }
+
+    for (i = 0; i < n; ++i) A[i] = out[i];
+}
+
+void radixSort(t_sort A[], int n) {
+    long m = PAIR_LONG(max(A, n));
+
+    for (int e = 0; RADIX_div(m, e) > 0; ++e) countSort(A, n, e);
+}
+
+void BetterBubbleSortB(list<t_sort> A) {
+    if (A.size() < 2) return;
+    bool swapped = true;
+    std::list<t_sort>::iterator i = A.end(), j, prev;
+    while (swapped) {
+        swapped = false;
+        prev = A.begin(), j = prev++;
+        //cout << t_sort_print((*prev)) << " from " << t_sort_print((*j)) << " ... " << t_sort_print((*i)) << endl;
+        for (; j != i; j++) {
+            //cout << t_sort_print((*j)) << " ? " << t_sort_print((*prev)) << endl;
+            if (*j < *prev) {
+                //cout << t_sort_print((*j)) << " < " << t_sort_print((*prev)) << endl;
+                std::iter_swap(j, prev);
+                swapped = true;
+            }
+            //else cout << t_sort_print((*j)) << " > " << t_sort_print((*prev)) << endl;
+            prev = j;
+        }
+        i = prev;
+    }
+}
+
+void bucketSort(t_sort A[], int n) {
+    long m = PAIR_LONG(max(A, n));
+
+    //vector<t_sort> buckets[n];
+    list<t_sort> buckets[n];
+
+    long div = m / n + 1;
+
+    int i;
+    for (i=0; i<n; ++i) {
+        int bucket = PAIR_LONG(A[i]) / div;
+        buckets[bucket].push_back(A[i]);
+    }
+
+    for (i=0; i<n; ++i) buckets[i].sort(); //BetterBubbleSortB(buckets[i]); //
+
+    int index = 0;
+    for (i = 0; i < n; ++i) for (const t_sort & p : buckets[i]) A[index++] = p;
+}
+
+//Quick-Sort(alt)
+
+inline t_sort swap_r(t_sort A[], int i, int j) {
+    t_sort temp = A[i];
+    A[i] = A[j];
+    A[j] = temp;
+    return temp;
+}
+
+inline void shift_up(t_sort A[], int i, int j, int k) {
+    t_sort temp = A[k];
+    A[k] = A[j];
+    A[j] = A[i];
+    A[i] = temp;
+}
+
+inline t_sort shift_up_r(t_sort A[], int i, int j, int k) {
+    t_sort temp = A[i];
+    A[i] = A[k];
+    A[k] = A[j];
+    A[j] = temp;
+    return temp;
+}
+
+inline t_sort split(t_sort A[], int i, int j, int k) {
+    if (A[i] <= A[j]) { // i < j
+        if (A[j] <= A[k]) { // i < j < k
+            return A[j];
+        }
+        else { // k < j
+            if (A[i] <= A[k]) { // i < k < j
+                return swap_r(A, k, j);
+            }
+            else { // k < i < j
+                return shift_up_r(A, i, j, k);
+            }
+        }
+    }
+    else { // j < i
+        if (A[i] <= A[k]) { // j < i < k
+            return swap_r(A, i, j);
+        }
+        else { // k < i
+            if (A[j] <= A[k]) { // j < k < i
+                return shift_up_r(A, k, i, j);
+            }
+            else { // k < j < i
+                swap(A, k, i);
+                return A[j];
+            }
+        }
+    }
+}
+
+int partition_m_(t_sort A[], int first, int last) {
+    int i = (first+last)/2, j;
+
+    t_sort pivot = split(A, first, i, last);
+
+    while (j < i && A[j] < pivot) ++j;
+
+    if (j < i) {
+        --last;
+        shift_up(A, j, last, i);
+
+        first = i = j++; //**********
+
+        for (; j < last; ++j)
+            if (A[j] < pivot) swap(A, i++, j);
+        swap(A, first, i);
+        return i;
+    } else {
+        first = i;
+        for (++j; j < last; ++j)
+            if (A[j] < pivot) swap(A, i++, j);
+        swap(A, first, i);
+        return i;
+    }
+}
+
+void quicksort_m_(t_sort A[], int first, int last) {
+    if (first < last) {
+        int middle = partition_m_(A, first, last);
+        quicksort_m_(A, first, middle - 1);
+        quicksort_m_(A, middle + 1, last);
+    }
+}
+
+void quicksort_m_(t_sort A[], int n) {
+    quicksort_m_(A, 0, n - 1);
+}
+
+int partition_m(t_sort A[], int first, int last) {
+    int i = first;
+    swap(A, i, (first + last)/2);
+    t_sort pivot = A[i];
+    for (int j = first + 1; j <= last; ++j)
+        if (A[j] < pivot) swap(A, ++i, j);
+    swap(A, first, i);
+    return i;
+}
+
+void quicksort_m(t_sort A[], int first, int last) {
+    if (first < last) {
+        int middle = partition_m(A, first, last);
+        quicksort_m(A, first, middle - 1);
+        quicksort_m(A, middle + 1, last);
+    }
+}
+
+void quicksort_m(t_sort A[], int n) {
+    quicksort_m(A, 0, n - 1);
+}
+
+int partition_h(t_sort A[], int first, int last) {
+    int i = last;
+    t_sort pivot = A[last];
+    for (int j = last-1; j >= first; --j)
+        if (A[j] < pivot) swap(A, --i, j);
+    swap(A, last, i);
+    return i;
+
+/*
+    int i = first;
+    t_sort pivot = A[last];
+    for (int j = first; j < last; ++j)
+        if (A[j] < pivot) swap(A, i++, j);
+    swap(A, last, i);
+    return i; //*///***************************************
+}
+
+void quicksort_h(t_sort A[], int first, int last) {
+    if (first < last) {
+        int middle = partition_h(A, first, last);
+        quicksort_h(A, first, middle - 1);
+        quicksort_h(A, middle + 1, last);
+    }
+}
+
+void quicksort_h(t_sort A[], int n) {
+    quicksort_m(A, 0, n - 1);
+}
+
 
 // ***** Counting versions
 
 const int c_n = 24;
 
 union count_{
-    int data[24] = { };
+    ulong data[24] = { };
     struct {
-        int add, sub, mlt, div, mod, inc, dec, ass;
-        int and_, or_;
-        int comp, tern, comp_b;
-        int if_, loop;
-        int call, rtrn, pass;
-        int declr, ref, declr_b, declr_p;
-        int arr, arl;
+        ulong add, sub, mlt, div, mod, inc, dec, ass;
+        ulong and_, or_;
+        ulong comp, tern, comp_b;
+        ulong if_, loop;
+        ulong call, rtrn, pass;
+        ulong declr, ref, declr_b, declr_p;
+        ulong arr, arl;
     };
 } c;
 
-void printc() {
-    cout << c.add << "," << c.sub << "," << c.mlt << "," << c.div << "," <<
+void printc(string prefix = "", string sufix = "") {
+    cout << prefix <<
+            c.add << "," << c.sub << "," << c.mlt << "," << c.div << "," <<
             c.mod << "," << c.inc << "," << c.dec << "," << c.ass << "," <<
             c.and_ << "," << c.or_ << "," <<
             c.comp << "," << c.tern << "," << c.comp_b << "," <<
             c.if_ << "," << c.loop << "," <<
             c.call << "," << c.rtrn << "," << c.pass << "," <<
             c.declr << "," << c.ref << "," << c.declr_b << "," << c.declr_p << "," <<
-            c.arr << "," << c.arl << endl;
+            c.arr << "," << c.arl << sufix << endl;
 }
 
-void printch() {
-    cout << "additions" << "," << "subtractions" << "," << "multiplications" << "," << "divisions" << "," <<
+void printch(string prefix = "", string sufix = "") {
+    cout << prefix <<
+         "additions" << "," << "subtractions" << "," << "multiplications" << "," << "divisions" << "," <<
          "modulos" << "," << "increments" << "," << "decrements" << "," << "assignments" << "," <<
          "ands" << "," << "ors" << "," <<
          "comparissons" << "," << "ternaries" << "," << "boolean_checks" << "," <<
          "ifs" << "," << "loops" << "," <<
          "calls" << "," << "returns" << "," << "passed_words" << "," <<
          "declarations_integer" << "," << "array_references" << "," << "declarations_boolean" << "," << "declarations_points" << "," <<
-         "declarations_array" << "," << "declarations_array_length" << endl;
+         "declarations_array" << "," << "declarations_array_length" << sufix << endl;
 }
 
 void clearc() {

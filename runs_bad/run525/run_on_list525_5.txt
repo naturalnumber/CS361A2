@@ -1,0 +1,104 @@
+Using variation 14
+Reading 250000 pairs.......... done!
+ f1 
+Running: Insertion-Sort
+Finished in 177328536us
+
+Running: Selection-Sort
+Finished in 172430786us
+
+Running: Merge-Sort
+Finished in 122817us
+
+Running: Quick-Sort
+Finished in 78794us
+
+Running: Heap-Sort
+Finished in 172961us
+
+Running: Bubble-Sort
+Finished in 623472821us
+
+Running: Insertion-Sort
+Using variation 14
+Reading 250000 pairs.......... done!
+Running: Insertion-Sort
+Finished in 151607641us
+
+Running: Selection-Sort
+Finished in 157205688us
+
+Running: Merge-Sort
+Finished in 112437us
+
+Running: Quick-Sort
+Finished in 71853us
+
+Running: Heap-Sort
+Finished in 159531us
+
+Running: Bubble-Sort
+Finished in 579099642us
+
+Running: Insertion-Sort
+Finished in 154911724us
+
+Running: Selection-Sort
+Finished in 157985956us
+
+Running: Merge-Sort
+Finished in 111810us
+
+Running: Quick-Sort
+Finished in 72181us
+
+Running: Heap-Sort
+Finished in 159354us
+
+Running: Bubble-Sort
+Finished in 579276157us
+
+Running: Insertion-Sort
+Finished in 155472870us
+
+Running: Selection-Sort
+Finished in 158560564us
+
+Running: Merge-Sort
+Finished in 111853us
+
+Running: Quick-Sort
+Finished in 72032us
+
+Running: Heap-Sort
+Finished in 159760us
+
+Running: Bubble-Sort
+Finished in 580977509us
+
+Median time for: Insertion-Sort is 154911724us
+Median time for: Selection-Sort is 157985956us
+Median time for: Merge-Sort is 111853us
+Median time for: Quick-Sort is 72032us
+Median time for: Heap-Sort is 159531us
+Median time for: Bubble-Sort is 579276157us
+Using variation 8
+Reading 250000 pairs.......... done!
+Running: Insertion-Sort
+Finished in 167113493us
+
+Running: Selection-Sort
+Finished in 159941389us
+
+Running: Merge-Sort
+Finished in 112399us
+
+Running: Quick-Sort
+Finished in 71972us
+
+Running: Heap-Sort
+Finished in 158935us
+
+Running: Bubble-Sort
+Finished in 579576345us
+

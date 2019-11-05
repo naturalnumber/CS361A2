@@ -212,4 +212,43 @@ void BetterBubbleSort(int A[], int n) {
     }
 }
 
+// radix~
+
+#define RADIX_v 256
+#define RADIX_mult(i) ((i) << 8)
+#define RADIX_mod(i) ((i) & 0b11111111)
+
+int max(int A[], int n)
+{
+    int m = A[0];
+    for (int i = 1; i < n; ++i)
+        if (A[i] > m)
+            m = A[i];
+    return m;
+}
+
+void countSort(int A[], int n, int e)
+{
+    int out[n], count[RADIX_v] = { };
+    int i;
+
+    for (i = 0; i < n; ++i) count[RADIX_mod(A[i] / e)]++;
+
+    for (i = 1; i < RADIX_v; ++i) count[i] += count[i - 1];
+
+    for (i = n - 1; i >= 0; --i) {
+        out[count[RADIX_mod(A[i] / e)] - 1] = A[i];
+        count[RADIX_mod(A[i] / e)]--;
+    }
+
+    for (i = 0; i < n; ++i) A[i] = out[i];
+}
+
+void radixSort(int A[], int n)
+{
+    int m = max(A, n);
+
+    for (int e = 1; m / e > 0; e = RADIX_mult(e)) countSort(A, n, e);
+}
+
 #endif //CS361A2_SORTS_H

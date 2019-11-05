@@ -20,4 +20,9 @@ enum SORT {
 const string NAME[N_SORTS] = {"Insertion-Sort", "Selection-Sort", "Merge-Sort", "Quick-Sort",
                               "Heap-Sort", "Bubble-Sort"};
 
+
+const int N_SORTS_I = 2;//5;
+const sort_function SORTS_I[N_SORTS_I] = {&radixSort, &bucketSort};//, &quicksort_h, &quicksort_m, &BetterBubbleSort};//, &radixSort};//, &quicksort_m_};
+const string NAME_I[N_SORTS_I] = {"Radix-Sort", "Bucket-Sort"};//, "High Quick-Sort", "Median Quick-Sort", "Better Bubble-Sort"};//, "Radix-Sort"};//, "Median Quick-Sort+"};
+
 #endif //CS361A2_SORT_H

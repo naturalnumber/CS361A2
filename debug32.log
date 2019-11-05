@@ -1,0 +1,2880 @@
+command: do_all 1x32 2 0 0
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 0 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 0
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 0 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 0
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 0 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 0
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 0 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 0
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 0 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 0
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 0 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 0
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 0 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 0
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 0 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 0
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 0 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 0
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 0 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 0
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 0 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 0
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 0 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 0
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 0 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 0
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 0 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 0
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 0 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 0
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 0 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 2 0 1
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 1 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 1
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 1 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 1
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 1 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 1
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 1 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 1
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 1 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 1
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 1 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 1
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 1 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 1
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 1 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 1
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 1 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 1
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 1 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 1
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 1 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 1
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 1 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 1
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 1 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 1
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 1 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 1
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 1 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 1
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 1 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 2 0 2
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 2 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 2
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 2 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 2
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 2 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 2
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 2 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 2
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 2 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 2
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 2 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 2
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 2 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 2
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 2 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 2
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 2 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 2
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 2 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 2
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 2 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 2
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 2 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 2
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 2 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 2
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 2 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 2
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 2 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 2
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 2 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 2 0 3
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 3 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 3
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 3 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 3
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 3 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 3
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 3 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 3
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 3 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 3
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 3 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 3
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 3 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 3
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 3 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 3
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 3 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 3
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 3 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 3
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 3 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 3
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 3 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 3
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 3 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 3
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 3 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 3
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 3 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 3
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 3 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 2 0 4
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 4 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 4
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 4 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 4
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 4 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 4
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 4 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 4
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 4 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 4
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 4 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 4
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 4 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 4
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 4 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 4
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 4 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 4
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 4 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 4
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 4 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 4
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 4 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 4
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 4 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 4
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 4 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 4
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 4 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 4
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 4 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 2 0 5
+Running on length 1x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 5 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 18 0 5
+Running on length 1x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 5 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 2 1 5
+Running on length 1x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 5 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 18 1 5
+Running on length 1x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 5 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 2 2 5
+Running on length 1x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 5 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 18 2 5
+Running on length 1x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 5 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 2 3 5
+Running on length 1x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 5 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 18 3 5
+Running on length 1x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 5 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 2 4 5
+Running on length 1x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 5 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 18 4 5
+Running on length 1x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 5 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 2 5 5
+Running on length 1x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 5 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 18 5 5
+Running on length 1x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 5 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 2 6 5
+Running on length 1x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 5 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 18 6 5
+Running on length 1x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 5 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 2 7 5
+Running on length 1x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 5 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 18 7 5
+Running on length 1x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 5 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 34 0 0
+Running on length 1x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 0 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 34 1 0
+Running on length 1x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 0 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 34 2 0
+Running on length 1x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 0 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 34 3 0
+Running on length 1x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 0 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 34 4 0
+Running on length 1x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 0 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 34 5 0
+Running on length 1x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 0 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 34 6 0
+Running on length 1x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 0 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 34 7 0
+Running on length 1x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 0 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 34 0 1
+Running on length 1x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 1 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 34 1 1
+Running on length 1x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 1 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 34 2 1
+Running on length 1x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 1 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 34 3 1
+Running on length 1x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 1 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 34 4 1
+Running on length 1x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 1 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 34 5 1
+Running on length 1x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 1 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 34 6 1
+Running on length 1x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 1 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 34 7 1
+Running on length 1x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 1 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 1x32 34 0 2
+Running on length 1x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 2 < ./lists/list1x32_0 &>> ./runs/run1x32/run_on_list1x32_0.txt
+Done...
+command: do_all 1x32 34 1 2
+Running on length 1x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 2 < ./lists/list1x32_1 &>> ./runs/run1x32/run_on_list1x32_1.txt
+Done...
+command: do_all 1x32 34 2 2
+Running on length 1x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 2 < ./lists/list1x32_2 &>> ./runs/run1x32/run_on_list1x32_2.txt
+Done...
+command: do_all 1x32 34 3 2
+Running on length 1x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 2 < ./lists/list1x32_3 &>> ./runs/run1x32/run_on_list1x32_3.txt
+Done...
+command: do_all 1x32 34 4 2
+Running on length 1x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 2 < ./lists/list1x32_4 &>> ./runs/run1x32/run_on_list1x32_4.txt
+Done...
+command: do_all 1x32 34 5 2
+Running on length 1x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 2 < ./lists/list1x32_5 &>> ./runs/run1x32/run_on_list1x32_5.txt
+Done...
+command: do_all 1x32 34 6 2
+Running on length 1x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 2 < ./lists/list1x32_6 &>> ./runs/run1x32/run_on_list1x32_6.txt
+Done...
+command: do_all 1x32 34 7 2
+Running on length 1x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 2 < ./lists/list1x32_7 &>> ./runs/run1x32/run_on_list1x32_7.txt
+Done...
+command: do_all 2x32 2 0 0
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 0 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 0
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 0 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 0
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 0 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 0
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 0 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 0
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 0 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 0
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 0 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 0
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 0 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 0
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 0 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 0
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 0 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 0
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 0 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 0
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 0 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 0
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 0 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 0
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 0 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 0
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 0 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 0
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 0 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 0
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 0 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 2 0 1
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 1 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 1
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 1 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 1
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 1 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 1
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 1 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 1
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 1 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 1
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 1 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 1
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 1 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 1
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 1 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 1
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 1 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 1
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 1 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 1
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 1 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 1
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 1 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 1
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 1 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 1
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 1 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 1
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 1 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 1
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 1 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 2 0 2
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 2 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 2
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 2 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 2
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 2 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 2
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 2 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 2
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 2 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 2
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 2 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 2
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 2 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 2
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 2 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 2
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 2 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 2
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 2 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 2
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 2 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 2
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 2 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 2
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 2 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 2
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 2 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 2
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 2 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 2
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 2 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 2 0 3
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 3 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 3
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 3 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 3
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 3 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 3
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 3 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 3
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 3 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 3
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 3 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 3
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 3 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 3
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 3 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 3
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 3 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 3
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 3 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 3
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 3 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 3
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 3 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 3
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 3 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 3
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 3 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 3
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 3 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 3
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 3 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 2 0 4
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 4 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 4
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 4 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 4
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 4 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 4
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 4 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 4
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 4 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 4
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 4 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 4
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 4 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 4
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 4 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 4
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 4 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 4
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 4 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 4
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 4 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 4
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 4 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 4
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 4 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 4
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 4 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 4
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 4 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 4
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 4 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 2 0 5
+Running on length 2x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 5 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 18 0 5
+Running on length 2x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 5 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 2 1 5
+Running on length 2x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 5 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 18 1 5
+Running on length 2x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 5 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 2 2 5
+Running on length 2x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 5 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 18 2 5
+Running on length 2x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 5 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 2 3 5
+Running on length 2x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 5 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 18 3 5
+Running on length 2x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 5 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 2 4 5
+Running on length 2x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 5 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 18 4 5
+Running on length 2x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 5 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 2 5 5
+Running on length 2x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 5 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 18 5 5
+Running on length 2x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 5 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 2 6 5
+Running on length 2x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 5 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 18 6 5
+Running on length 2x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 5 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 2 7 5
+Running on length 2x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 5 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 18 7 5
+Running on length 2x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 5 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 34 0 0
+Running on length 2x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 0 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 34 1 0
+Running on length 2x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 0 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 34 2 0
+Running on length 2x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 0 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 34 3 0
+Running on length 2x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 0 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 34 4 0
+Running on length 2x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 0 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 34 5 0
+Running on length 2x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 0 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 34 6 0
+Running on length 2x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 0 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 34 7 0
+Running on length 2x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 0 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 34 0 1
+Running on length 2x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 1 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 34 1 1
+Running on length 2x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 1 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 34 2 1
+Running on length 2x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 1 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 34 3 1
+Running on length 2x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 1 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 34 4 1
+Running on length 2x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 1 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 34 5 1
+Running on length 2x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 1 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 34 6 1
+Running on length 2x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 1 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 34 7 1
+Running on length 2x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 1 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 2x32 34 0 2
+Running on length 2x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 2 < ./lists/list2x32_0 &>> ./runs/run2x32/run_on_list2x32_0.txt
+Done...
+command: do_all 2x32 34 1 2
+Running on length 2x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 2 < ./lists/list2x32_1 &>> ./runs/run2x32/run_on_list2x32_1.txt
+Done...
+command: do_all 2x32 34 2 2
+Running on length 2x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 2 < ./lists/list2x32_2 &>> ./runs/run2x32/run_on_list2x32_2.txt
+Done...
+command: do_all 2x32 34 3 2
+Running on length 2x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 2 < ./lists/list2x32_3 &>> ./runs/run2x32/run_on_list2x32_3.txt
+Done...
+command: do_all 2x32 34 4 2
+Running on length 2x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 2 < ./lists/list2x32_4 &>> ./runs/run2x32/run_on_list2x32_4.txt
+Done...
+command: do_all 2x32 34 5 2
+Running on length 2x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 2 < ./lists/list2x32_5 &>> ./runs/run2x32/run_on_list2x32_5.txt
+Done...
+command: do_all 2x32 34 6 2
+Running on length 2x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 2 < ./lists/list2x32_6 &>> ./runs/run2x32/run_on_list2x32_6.txt
+Done...
+command: do_all 2x32 34 7 2
+Running on length 2x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 2 < ./lists/list2x32_7 &>> ./runs/run2x32/run_on_list2x32_7.txt
+Done...
+command: do_all 3x32 2 0 0
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 0 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 0
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 0 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 0
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 0 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 0
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 0 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 0
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 0 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 0
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 0 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 0
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 0 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 0
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 0 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 0
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 0 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 0
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 0 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 0
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 0 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 0
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 0 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 0
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 0 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 0
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 0 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 0
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 0 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 0
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 0 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 2 0 1
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 1 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 1
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 1 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 1
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 1 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 1
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 1 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 1
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 1 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 1
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 1 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 1
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 1 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 1
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 1 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 1
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 1 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 1
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 1 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 1
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 1 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 1
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 1 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 1
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 1 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 1
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 1 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 1
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 1 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 1
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 1 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 2 0 2
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 2 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 2
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 2 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 2
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 2 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 2
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 2 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 2
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 2 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 2
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 2 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 2
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 2 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 2
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 2 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 2
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 2 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 2
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 2 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 2
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 2 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 2
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 2 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 2
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 2 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 2
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 2 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 2
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 2 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 2
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 2 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 2 0 3
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 3 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 3
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 3 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 3
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 3 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 3
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 3 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 3
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 3 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 3
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 3 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 3
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 3 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 3
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 3 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 3
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 3 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 3
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 3 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 3
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 3 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 3
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 3 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 3
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 3 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 3
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 3 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 3
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 3 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 3
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 3 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 2 0 4
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 4 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 4
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 4 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 4
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 4 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 4
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 4 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 4
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 4 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 4
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 4 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 4
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 4 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 4
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 4 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 4
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 4 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 4
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 4 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 4
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 4 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 4
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 4 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 4
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 4 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 4
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 4 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 4
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 4 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 4
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 4 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 2 0 5
+Running on length 3x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 5 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 18 0 5
+Running on length 3x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 5 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 2 1 5
+Running on length 3x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 5 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 18 1 5
+Running on length 3x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 5 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 2 2 5
+Running on length 3x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 5 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 18 2 5
+Running on length 3x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 5 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 2 3 5
+Running on length 3x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 5 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 18 3 5
+Running on length 3x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 5 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 2 4 5
+Running on length 3x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 5 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 18 4 5
+Running on length 3x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 5 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 2 5 5
+Running on length 3x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 5 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 18 5 5
+Running on length 3x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 5 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 2 6 5
+Running on length 3x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 5 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 18 6 5
+Running on length 3x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 5 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 2 7 5
+Running on length 3x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 5 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 18 7 5
+Running on length 3x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 5 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 34 0 0
+Running on length 3x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 0 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 34 1 0
+Running on length 3x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 0 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 34 2 0
+Running on length 3x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 0 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 34 3 0
+Running on length 3x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 0 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 34 4 0
+Running on length 3x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 0 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 34 5 0
+Running on length 3x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 0 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 34 6 0
+Running on length 3x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 0 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 34 7 0
+Running on length 3x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 0 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 34 0 1
+Running on length 3x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 1 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 34 1 1
+Running on length 3x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 1 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 34 2 1
+Running on length 3x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 1 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 34 3 1
+Running on length 3x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 1 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 34 4 1
+Running on length 3x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 1 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 34 5 1
+Running on length 3x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 1 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 34 6 1
+Running on length 3x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 1 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 34 7 1
+Running on length 3x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 1 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 3x32 34 0 2
+Running on length 3x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 2 < ./lists/list3x32_0 &>> ./runs/run3x32/run_on_list3x32_0.txt
+Done...
+command: do_all 3x32 34 1 2
+Running on length 3x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 2 < ./lists/list3x32_1 &>> ./runs/run3x32/run_on_list3x32_1.txt
+Done...
+command: do_all 3x32 34 2 2
+Running on length 3x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 2 < ./lists/list3x32_2 &>> ./runs/run3x32/run_on_list3x32_2.txt
+Done...
+command: do_all 3x32 34 3 2
+Running on length 3x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 2 < ./lists/list3x32_3 &>> ./runs/run3x32/run_on_list3x32_3.txt
+Done...
+command: do_all 3x32 34 4 2
+Running on length 3x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 2 < ./lists/list3x32_4 &>> ./runs/run3x32/run_on_list3x32_4.txt
+Done...
+command: do_all 3x32 34 5 2
+Running on length 3x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 2 < ./lists/list3x32_5 &>> ./runs/run3x32/run_on_list3x32_5.txt
+Done...
+command: do_all 3x32 34 6 2
+Running on length 3x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 2 < ./lists/list3x32_6 &>> ./runs/run3x32/run_on_list3x32_6.txt
+Done...
+command: do_all 3x32 34 7 2
+Running on length 3x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 2 < ./lists/list3x32_7 &>> ./runs/run3x32/run_on_list3x32_7.txt
+Done...
+command: do_all 4x32 2 0 0
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 0 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 0
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 0 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 0
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 0 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 0
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 0 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 0
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 0 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 0
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 0 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 0
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 0 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 0
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 0 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 0
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 0 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 0
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 0 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 0
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 0 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 0
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 0 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 0
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 0 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 0
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 0 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 0
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 0 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 0
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 0 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 2 0 1
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 1 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 1
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 1 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 1
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 1 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 1
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 1 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 1
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 1 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 1
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 1 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 1
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 1 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 1
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 1 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 1
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 1 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 1
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 1 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 1
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 1 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 1
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 1 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 1
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 1 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 1
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 1 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 1
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 1 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 1
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 1 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 2 0 2
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 2 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 2
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 2 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 2
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 2 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 2
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 2 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 2
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 2 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 2
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 2 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 2
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 2 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 2
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 2 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 2
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 2 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 2
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 2 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 2
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 2 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 2
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 2 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 2
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 2 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 2
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 2 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 2
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 2 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 2
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 2 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 2 0 3
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 3 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 3
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 3 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 3
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 3 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 3
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 3 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 3
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 3 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 3
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 3 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 3
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 3 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 3
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 3 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 3
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 3 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 3
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 3 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 3
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 3 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 3
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 3 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 3
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 3 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 3
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 3 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 3
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 3 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 3
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 3 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 2 0 4
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 4 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 4
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 4 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 4
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 4 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 4
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 4 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 4
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 4 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 4
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 4 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 4
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 4 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 4
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 4 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 4
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 4 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 4
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 4 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 4
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 4 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 4
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 4 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 4
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 4 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 4
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 4 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 4
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 4 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 4
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 4 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 2 0 5
+Running on length 4x32
+Running on flags 2
+Running variation 0
+command: CS361A2 2 run 5 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 18 0 5
+Running on length 4x32
+Running on flags 18
+Running variation 0
+command: CS361A2 18 run 5 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 2 1 5
+Running on length 4x32
+Running on flags 2
+Running variation 1
+command: CS361A2 2 run 5 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 18 1 5
+Running on length 4x32
+Running on flags 18
+Running variation 1
+command: CS361A2 18 run 5 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 2 2 5
+Running on length 4x32
+Running on flags 2
+Running variation 2
+command: CS361A2 2 run 5 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 18 2 5
+Running on length 4x32
+Running on flags 18
+Running variation 2
+command: CS361A2 18 run 5 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 2 3 5
+Running on length 4x32
+Running on flags 2
+Running variation 3
+command: CS361A2 2 run 5 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 18 3 5
+Running on length 4x32
+Running on flags 18
+Running variation 3
+command: CS361A2 18 run 5 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 2 4 5
+Running on length 4x32
+Running on flags 2
+Running variation 4
+command: CS361A2 2 run 5 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 18 4 5
+Running on length 4x32
+Running on flags 18
+Running variation 4
+command: CS361A2 18 run 5 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 2 5 5
+Running on length 4x32
+Running on flags 2
+Running variation 5
+command: CS361A2 2 run 5 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 18 5 5
+Running on length 4x32
+Running on flags 18
+Running variation 5
+command: CS361A2 18 run 5 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 2 6 5
+Running on length 4x32
+Running on flags 2
+Running variation 6
+command: CS361A2 2 run 5 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 18 6 5
+Running on length 4x32
+Running on flags 18
+Running variation 6
+command: CS361A2 18 run 5 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 2 7 5
+Running on length 4x32
+Running on flags 2
+Running variation 7
+command: CS361A2 2 run 5 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 18 7 5
+Running on length 4x32
+Running on flags 18
+Running variation 7
+command: CS361A2 18 run 5 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 34 0 0
+Running on length 4x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 0 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 34 1 0
+Running on length 4x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 0 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 34 2 0
+Running on length 4x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 0 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 34 3 0
+Running on length 4x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 0 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 34 4 0
+Running on length 4x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 0 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 34 5 0
+Running on length 4x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 0 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 34 6 0
+Running on length 4x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 0 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 34 7 0
+Running on length 4x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 0 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 34 0 1
+Running on length 4x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 1 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 34 1 1
+Running on length 4x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 1 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 34 2 1
+Running on length 4x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 1 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 34 3 1
+Running on length 4x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 1 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 34 4 1
+Running on length 4x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 1 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 34 5 1
+Running on length 4x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 1 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 34 6 1
+Running on length 4x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 1 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 34 7 1
+Running on length 4x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 1 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
+command: do_all 4x32 34 0 2
+Running on length 4x32
+Running on flags 34
+Running variation 0
+command: CS361A2 34 run 2 < ./lists/list4x32_0 &>> ./runs/run4x32/run_on_list4x32_0.txt
+Done...
+command: do_all 4x32 34 1 2
+Running on length 4x32
+Running on flags 34
+Running variation 1
+command: CS361A2 34 run 2 < ./lists/list4x32_1 &>> ./runs/run4x32/run_on_list4x32_1.txt
+Done...
+command: do_all 4x32 34 2 2
+Running on length 4x32
+Running on flags 34
+Running variation 2
+command: CS361A2 34 run 2 < ./lists/list4x32_2 &>> ./runs/run4x32/run_on_list4x32_2.txt
+Done...
+command: do_all 4x32 34 3 2
+Running on length 4x32
+Running on flags 34
+Running variation 3
+command: CS361A2 34 run 2 < ./lists/list4x32_3 &>> ./runs/run4x32/run_on_list4x32_3.txt
+Done...
+command: do_all 4x32 34 4 2
+Running on length 4x32
+Running on flags 34
+Running variation 4
+command: CS361A2 34 run 2 < ./lists/list4x32_4 &>> ./runs/run4x32/run_on_list4x32_4.txt
+Done...
+command: do_all 4x32 34 5 2
+Running on length 4x32
+Running on flags 34
+Running variation 5
+command: CS361A2 34 run 2 < ./lists/list4x32_5 &>> ./runs/run4x32/run_on_list4x32_5.txt
+Done...
+command: do_all 4x32 34 6 2
+Running on length 4x32
+Running on flags 34
+Running variation 6
+command: CS361A2 34 run 2 < ./lists/list4x32_6 &>> ./runs/run4x32/run_on_list4x32_6.txt
+Done...
+command: do_all 4x32 34 7 2
+Running on length 4x32
+Running on flags 34
+Running variation 7
+command: CS361A2 34 run 2 < ./lists/list4x32_7 &>> ./runs/run4x32/run_on_list4x32_7.txt
+Done...
